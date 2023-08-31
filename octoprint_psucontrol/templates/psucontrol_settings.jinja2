@@ -207,6 +207,15 @@
         </div>
     </div>
     <div class="control-group">
+        <label class="control-label">Post On GCode Delay</label>
+        <div class="controls">
+            <div class="input-append">
+                <input type="number" min="0" step="0.1" class="input-mini text-right" data-bind="value: settings.plugins.psucontrol.postOnGcodeDelay">
+                <span class="add-on">sec</span>
+            </div>
+        </div>
+    </div>
+    <div class="control-group">
         <label class="control-label">Post On GCode Script</label>
         <div class="controls">
             <textarea rows="5" class="block" data-bind="value: scripts_gcode_psucontrol_post_on"></textarea>
